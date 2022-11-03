@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Createx Form</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__block block-header">
+					<div class="block-header__logo">
+						<img src="img/header/logo.svg" alt="Логотип" class="block-header__image">
+					</div>
+					<nav class="header__nav nav-header">
+						<ul class="nav-header__items">
+							<li class="nav-header__item"><a href="#">About Us</a></li>
+							<li class="nav-header__item"><a href="#">Courses</a></li>
+							<li class="nav-header__item"><a href="#">Events</a></li>
+							<li class="nav-header__item"><a href="#">Blog</a></li>
+							<li class="nav-header__item"><a href="#">Contacts</a></li>
+						</ul>
+					</nav>
+					<div class="header__block-consultation consultation-header">
+						<a href="#" class="consultation-header__button">Get consultation</a>
+						<div class="consultation-header__registration"><a href="#">Log in / Register</a></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="page">
+				<div class="page__container">
+				<div class="page__wrapper-block block-page">
+					<div class="block-page__ilustration">
+						<img src="img/illustration.png" alt="Илюстрация" class="block-page__image">
+					</div>
+					<div class="page__any-questions questions-page">
+						<div class="questions-page__text">
+							<h2 class="questions-page__title">Any questions?</h2>
+							<h3 class="questions-page__subtitle">Drop us a line</h3>
+						</div>
+						<div class="page__contact-form wrapper-page">
+							<form action="#" class="wrapper-page__form" method="get"
+							enctype="multipart/form-data">
+
+							<div class="wrapper-page__line">
+								<label for="first" class="wrapper-page__label">First Name*</label>
+								<input id="first" type="text" name="name" class="wrapper-page__input" required placeholder="Your first name">
+							</div>
+
+							<div class="wrapper-page__line">
+								<label for="last" class="wrapper-page__label">Last  Name*</label>
+								<input id="last" type="text" name="name" class="wrapper-page__input" required placeholder="Your last name">
+							</div>
+
+							<div class="wrapper-page__line">
+								<label for="email" class="wrapper-page__label">Email*</label>
+								<input id="email" type="email" name="email" class="wrapper-page__input" required placeholder="Your working email">
+							</div>
+
+							<div class="wrapper-page__line">
+								<label for="tel" class="wrapper-page__label">Phone</label>
+								<input id="tel" type="tel" name="tel" class="wrapper-page__input" placeholder="Your phone number">
+							</div>
+
+							<div class="wrapper-page__line">
+								<label for="message"  class="wrapper-page__label">Message*</label>
+								<textarea autocomplete="off" id="message" name="message" required placeholder="Your message"  class="wrapper-page__area" cols="87" rows="5"></textarea>
+							</div>
+							<div class="wrapper-page__radio radio-wrapper">
+								<input  class="radio-wrapper__input" type="checkbox" >
+								<p class="radio-wrapper__parah">I agree to receive communications from Createx Online School</p>
+								<button class="radio-wrapper__button" type="submit">Send message</button>
+							</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<section class="training">
+				<div class="training__container">
+					<div class="training__text">
+						<h2 class="training__title">Home work</h2>
+						<h3 class="training__subtitle">Training brain</h3>
+						<p>by creating forms</p>
+					</div>
+					<div class="training__wrapper">
+						<form action="#" method="post" class="training__form form">
+							<div class="form__block">
+								<label for="text" class="form__label">Your name*</label>
+								<input  id="text" type="text" name="text" required placeholder="Your name" class="form__input">
+							</div>
+
+							<div class="form__block">
+								<label for="number" class="form__label">Your Number*</label>
+								<input id="number" type="number" name="number" required placeholder="Your Number" class="form__input">
+							</div>
+
+							<div class="form__block">
+								<label for="password" class="form__label">Your Password*</label>
+								<input id="password" type="password" name="password" required placeholder="Your Password" class="form__input">
+							</div>
+
+							<div class="form__block">
+								<label for="date" class="form__label">Your Date*</label>
+								<input id="date" type="date" name="date" required class="form__input">
+							</div>
+							<div class="form__button">
+								<button type="submit">Lets go</button>
+							</div>
+						</form>
+					</div>
+					<div class="training__checkbox checkbox-custom">
+						<form action="#" method="post" class="checkbox-custom__form">
+							<div class="checkbox-custom__line">
+								<input id="mers"  type="checkbox" value="yes" name="mers" class="checkbox-custom__input">
+								<label for="mers" class="checkbox-custom__label"><span class="checkbox-custom__text">Mersedes</span></label>
+							</div>
+							<div class="checkbox-custom__line">
+								<input id="audi"  type="checkbox" value="yes" name="audi" class="checkbox-custom__input">
+								<label for="audi" class="checkbox-custom__label"><span class="checkbox-custom__text">Audi</span></label>
+							</div>
+							<div class="checkbox-custom__line">
+								<input id="bmw"  type="checkbox" value="yes" name="bmw" class="checkbox-custom__input">
+								<label for="bmw" class="checkbox-custom__label"><span class="checkbox-custom__text">BMW</span></label>
+							</div>
+							<div class="checkbox-custom__button">
+								<button type="submit">Your choice</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
